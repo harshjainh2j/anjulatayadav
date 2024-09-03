@@ -60,7 +60,7 @@ className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
             <div className='col-span-12'>
             <FeaturedProject 
               title="The Effect of Frequency Slot Demand in Elastic Optical Network (EON)"
-              summary='G. Baig, Anjulata Yadav and D. S. Yadav, "The Effect of Frequency Slot Demand in Elastic Optical Network (EON)," 2022 IEEE 11th International Conference on Communication Systems and Network Technologies (CSNT), pp. 470-475, doi: 10.1109/CSNT54456.2022.9787616, 23-24 April 2022, Indore, India'
+              summary='G. Baig, Anjulata Yadav and D. S. Yadav, "The Effect of Frequency Slot Demand in Elastic Optical Network (EON)," 2022 IEEE 11th International Conference on Communication Systems and Network Technologies (CSNT), 23-24 April 2022, Indore, India'
               />
             </div>
 
