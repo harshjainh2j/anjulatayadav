@@ -51,10 +51,10 @@ export default function Home() {
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg 
             font-semibold hover:bg-light hover:text-dark border border-solid 
             border-transparent hover:border-2 hover:border-dark lg:self-center md:p-2 md:px-4 md:text-base"
-                  target="_blank"
-                  href="https://www.sgsits.ac.in/index.php/people-ec/ete-faculty-members/545-mrs-anjulata-yadav"
+              
+                  href="/about"
                 >
-                  Resume
+                  About
                   {/* <LinkArrow className='ml-1 w-6' />  */}
                 </Link>
                 <Link

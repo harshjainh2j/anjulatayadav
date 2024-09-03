@@ -41,13 +41,13 @@ const Navbar = () => {
   }
 
   return (
-<header className='w-full py-8 px-32 font-medium flex items-center justify-between relative z-10 lg:px-16 md:px-12 sm:px-8'>
+<header className='w-full py-8 px-32 font-medium flex items-center justify-between relative z-10 lg:px-16 md:px-12 sm:px-8 '>
   <button className='hidden lg:flex flex-col justify-center items-center' onClick={handleClick}>
     <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen?"rotate-45 translate-y-1":"-translate-y-0.5"}`}></span>
     <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen?"opacity-0":"opacity-100"}`}></span>
     <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen?"-rotate-45 -translate-y-1":"translate-y-0.5"}`}></span>
   </button>
-<div className='w-full flex justify-between items-center lg:hidden'>
+<div className='w-full flex justify-between items-center  lg:hidden'>
 <nav >
     <CustomLink href='/' title={"Home"} className='mr-4'/>
     <CustomLink href='/about' title={"About"} className='mx-4'/>
@@ -56,7 +56,7 @@ const Navbar = () => {
 </nav>
 {/* for social media icons */}
 {/* target="_blank" opens in new tab */}
-<nav className='flex items-center justify-center flex-wrap'> 
+<nav className='flex items-center justify-center flex-wrap '> 
 <motion.a href="https://www.linkedin.com/in/anju-yadav-53baa429/" 
 target="_blank" whileTap={{scale:0.9}} whileHover={{y:-2}} className="w-6 mr-4">
 <Linkedin/></motion.a>
